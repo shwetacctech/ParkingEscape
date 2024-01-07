@@ -1,0 +1,16 @@
+﻿  pch.cpp
+  Car.cpp
+D:\Shweta_Workplace\TrafficJam\Car\Car.h(20,23): warning C4251: 'Car::mVertices': class 'std::vector<Point3D,std::allocator<Point3D>>' needs to have dll-interface to be used by clients of class 'Car'
+  (compiling source file '/Car.cpp')
+  D:\Shweta_Workplace\TrafficJam\Car\Car.h(13,11):
+  see declaration of 'std::vector<Point3D,std::allocator<Point3D>>'
+  
+D:\Shweta_Workplace\TrafficJam\Car\Car.h(21,21): warning C4251: 'Car::mColor': class 'std::vector<float,std::allocator<float>>' needs to have dll-interface to be used by clients of class 'Car'
+  (compiling source file '/Car.cpp')
+  D:\Shweta_Workplace\TrafficJam\Car\Car.h(13,44):
+  see declaration of 'std::vector<float,std::allocator<float>>'
+  
+  dllmain.cpp
+  Generating Code...
+     Creating library D:\Shweta_Workplace\TrafficJam\x64\Debug\Car.lib and object D:\Shweta_Workplace\TrafficJam\x64\Debug\Car.exp
+  Car.vcxproj -> D:\Shweta_Workplace\TrafficJam\x64\Debug\Car.dll
